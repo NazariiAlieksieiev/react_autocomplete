@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './App.scss';
 import { peopleFromServer } from './data/people';
 import { Person } from './types/Person';
-import { DropdownMenu } from './components/Dropdown Menu/DropdownMenu';
+import { DropdownMenu } from './components/DropdownMenu/DropdownMenu';
 
 export const App: React.FC = () => {
   const [people] = useState(peopleFromServer);
